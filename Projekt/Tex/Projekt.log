@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.18)  17 JAN 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.18)  17 JAN 2018 20:56
 entering extended mode
 **./Projekt.tex
 (Projekt.tex
@@ -1223,40 +1223,51 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <../Analiza_termiczna.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
-LaTeX Warning: Command \r invalid in math mode on input line 81.
+ []
 
-Missing character: There is no Å in font plr10!
 <../Dyfraktogram.png, id=45, 433.62pt x 289.08pt>
 File: ../Dyfraktogram.png Graphic file (type png)
  <use ../Dyfraktogram.png>
-Package pdftex.def Info: ../Dyfraktogram.png used on input line 120.
+Package pdftex.def Info: ../Dyfraktogram.png used on input line 76.
 (pdftex.def)             Requested size: 452.9679pt x 301.99469pt.
 
-[2] [3] <../Krzywa_rozladowania.png, id=62, 433.62pt x 289.08pt>
+
+LaTeX Warning: Command \r invalid in math mode on input line 82.
+
+Missing character: There is no Å in font plr10!
+[2 <../Dyfraktogram.png>]
+<../Krzywa_rozladowania.png, id=60, 433.62pt x 289.08pt>
 File: ../Krzywa_rozladowania.png Graphic file (type png)
 
 <use ../Krzywa_rozladowania.png>
-Package pdftex.def Info: ../Krzywa_rozladowania.png used on input line 131.
+Package pdftex.def Info: ../Krzywa_rozladowania.png used on input line 127.
 (pdftex.def)             Requested size: 452.9679pt x 301.99469pt.
- [4 <../Dyfraktogram.png>] [5 <../Krzywa_rozladowania.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+ [3]
+<../rozniczka.png, id=65, 433.62pt x 289.08pt>
+File: ../rozniczka.png Graphic file (type png)
+ <use ../rozniczka.png>
+Package pdftex.def Info: ../rozniczka.png used on input line 132.
+(pdftex.def)             Requested size: 452.9679pt x 301.99469pt.
+ [4 <../Krzywa_rozladowania.png> <../rozniczka.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (Projekt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `Projekt.out' has not changed.
 (rerunfilecheck)             Checksum: 6CD013002B6A9227543A0317D3B79DCB;1027.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 28905 strings out of 493333
- 591950 string characters out of 3139188
+ 28910 strings out of 493333
+ 592056 string characters out of 3139188
  748777 words of memory out of 3000000
- 31991 multiletter control sequences out of 15000+200000
+ 31995 multiletter control sequences out of 15000+200000
  12404 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,96p,441b,356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,96p,441b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
 ps/pl/plme.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}{C:/Pro
@@ -1272,9 +1283,9 @@ mi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/pl/plr5.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/pl/plr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 pl/plsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb>
-Output written on Projekt.pdf (5 pages, 575758 bytes).
+Output written on Projekt.pdf (4 pages, 585593 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

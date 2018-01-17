@@ -52,7 +52,7 @@ Wyznaczanie:
 	\item Z powyższych wartości wyliczyłam średnią wartość HF.
 	\item Pomiar o HF najbardziej zbliżonym do danej średniej uznałam za środek przejścia szklistego. Temperaturę w tym pomiarze uznałam za temperaturę przejścia szklistego.
 \end{itemize}
-
+\newpage
 \subsection{Krystalizacja}
 Temperatura początku krystalizacji: 362.439 $^\circ$C \\
 Wyznaczanie: \\
@@ -67,14 +67,15 @@ Wyznaczanie: \\
 Jest to temperatura punktu przecięcie prostej dopasowanej do drugiej części piku krystalizacji (dla malejącego HF) z prostą dopasowaną do dalszego spadku HF (kolejno proste zielona i błękitna).
  
 \section{Zadanie 3: Dyfraktometria Rentgenowska}
-Położenie maksimów wyznaczyłam dla manganu: 
-\begin{itemize}
-	\item Stała sieciowa: 8.91 \AA
-\item Struktura: BCC
-\item Położenia atomów w komórce elementarnej: [0,0,0] i [$\frac{1}{2}$,$\frac{1}{2}$,$\frac{1}{2}$]
-\end{itemize}
+Położenie maksimów wyznaczyłam dla kryształu manganu (stała sieciowa: 8.91 \AA) mającego strukturę BCC, więc jego atomy w komórce elementarnej mają położenia: [0,0,0] i [$\frac{1}{2}$,$\frac{1}{2}$,$\frac{1}{2}$].
 Na mangan świecono falą o długości $\lambda = 1.66$ \AA. 
 Dla struktury BCC, będącej wariacją struktury sześciennej $d=\frac{a}{\sqrt{h^2 +k^2 + l^2}}$. Z twierdzenia Wullfa-Braggów wiadomo że $2 d \sin{\theta} =n\lambda$, więc $2 \theta = \arcsin{\frac{n\lambda} {2 d}} $, gdzie n to rząd ugięcia. Czynnik struktury F ma postać $F=\sum\limits_j f_j * e^{2 \pi i(h*x_j+k*y_j+l*z_j)} $ co dla manganu daje $F=f *( 1+e^{i\pi (h+k+l)}) $ \\
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=\textwidth]{../Dyfraktogram.png}
+\end{figure}
+
 \begin{tabular}{|cccccc|}
 \hline
 \hline
@@ -115,11 +116,6 @@ Dla struktury BCC, będącej wariacją struktury sześciennej $d=\frac{a}{\sqrt{
   3 &  4 &  5 &     1.260064 &            82.401080 &            2 \\\hline
 \end{tabular}
 
-\begin{figure}[H]
-	\centering
-		\includegraphics[width=\textwidth]{../Dyfraktogram.png}
-\end{figure}
-
 Ze wszystkich danych nam dyfraktogramów ten(5) najlepiej zgadza się z powyższą tabelką. Nie wszystkie zawarte na nim wzmocnienia zostały wyliczone, ale wszystkie wyliczone wzmocnienia są na nim zawarte, zaś żadne z nieprzewidzianych wzmocnień nie występuje w miejscu wyliczonego wygaszenia. 
 
 \section{Zadanie 5: Testy Baterii Li-Ion}
@@ -130,5 +126,11 @@ Teoretyczną pojemność grawimetryczną wyznaczyłam ze wzoru użytego na zaję
 	\centering
 		\includegraphics[width=\textwidth]{../Krzywa_rozladowania.png}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=\textwidth]{../rozniczka.png}
+\end{figure}
+Na powyższym wykresie minima oznaczają reakcje redox powiązane z interkalacją litu. Są one w położeniach $U = 3.1V$ i $U = ok. 3.4V$.  
 
 \end{document}
