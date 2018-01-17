@@ -69,16 +69,16 @@ Jest to temperatura punktu przecięcie prostej dopasowanej do drugiej części p
 \section{Zadanie 3: Dyfraktometria Rentgenowska}
 Położenie maksimów wyznaczyłam dla manganu: 
 \begin{itemize}
-	\item Stała sieciowa: 8.91 %coś innego bo to nie działa $r{A} $
+	\item Stała sieciowa: 8.91 \AA
 \item Struktura: BCC
 \item Położenia atomów w komórce elementarnej: [0,0,0] i [$\frac{1}{2}$,$\frac{1}{2}$,$\frac{1}{2}$]
 \end{itemize}
-Na mangan świecono falą o długości $\lambda = 1.66$. %angstrom
+Na mangan świecono falą o długości $\lambda = 1.66$ \AA. 
 Dla struktury BCC, będącej wariacją struktury sześciennej $d=\frac{a}{\sqrt{h^2 +k^2 + l^2}}$. Z twierdzenia Wullfa-Braggów wiadomo że $2 d \sin{\theta} =n\lambda$, więc $2 \theta = \arcsin{\frac{n\lambda} {2 d}} $, gdzie n to rząd ugięcia. Czynnik struktury F ma postać $F=\sum\limits_j f_j * e^{2 \pi i(h*x_j+k*y_j+l*z_j)} $ co dla manganu daje $F=f *( 1+e^{i\pi (h+k+l)}) $ \\
 \begin{tabular}{|cccccc|}
 \hline
 \hline
-  h &  k &  l &  $d_{hkl}[]$ &  $2\theta[^\circ C]$ &$F_{hkl}[*f]$ \\
+  h &  k &  l &  $d_{hkl}[\AA]$ &  $2\theta[^\circ C]$ &$F_{hkl}[*f]$ \\
 \hline
 \hline
   0 &  1 &  2 &     3.984673 &            24.045275 &            0 \\\hline
@@ -119,11 +119,16 @@ Dla struktury BCC, będącej wariacją struktury sześciennej $d=\frac{a}{\sqrt{
 	\centering
 		\includegraphics[width=\textwidth]{../Dyfraktogram.png}
 \end{figure}
+
 Ze wszystkich danych nam dyfraktogramów ten(5) najlepiej zgadza się z powyższą tabelką. Nie wszystkie zawarte na nim wzmocnienia zostały wyliczone, ale wszystkie wyliczone wzmocnienia są na nim zawarte, zaś żadne z nieprzewidzianych wzmocnień nie występuje w miejscu wyliczonego wygaszenia. 
 
 \section{Zadanie 5: Testy Baterii Li-Ion}
-Pojemność grawimetryczną (q) wyliczyłam ze wzoru $q=\frac{tI} {m} $, gdzie t to czas rozładowania, I to prąd (w tym przypadku $I=59.8\mu A$, zaś m to masa próbki (tutaj $m=3.53mg$). Doświadczalna pojemność grawimetryczna jest maksimum pojemności grawimetrycznej na poniższym wykresie czyli %Wstawić wartość 
-Teoretyczną pojemność grawimetryczną wyznaczyłam ze wzoru 
- 
+Pojemność grawimetryczną (q) wyliczyłam ze wzoru $q=\frac{tI} {m} $, gdzie t to czas rozładowania, I to prąd (w tym przypadku $I=59.8\mu A$, zaś m to masa próbki (tutaj $m=3.53mg$). Doświadczalna pojemność grawimetryczna jest maksimum pojemności grawimetrycznej na poniższym wykresie czyli 123.72$\frac{mAh}{g}$.
+Teoretyczną pojemność grawimetryczną wyznaczyłam ze wzoru użytego na zajęciach czyli $q = \frac{N_A e}{M_{LiFePO_4}}$ co w rezultacie dało wynik 169.89$\frac{mAh}{g}$. Dla takich wartości pojemność doświadczalna stanowi 72.82\% pojemności teoretycznej.
+
+ \begin{figure}[H]
+	\centering
+		\includegraphics[width=\textwidth]{../Krzywa_rozladowania.png}
+\end{figure}
 
 \end{document}
